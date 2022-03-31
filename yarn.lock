@@ -2160,6 +2160,7 @@ __metadata:
     "@nomiclabs/hardhat-ethers": ^2.0.5
     "@nomiclabs/hardhat-etherscan": ^3.0.3
     "@nomiclabs/hardhat-waffle": ^2.0.3
+    "@rari-capital/solmate": "https://github.com/Rari-Capital/solmate"
     "@trivago/prettier-plugin-sort-imports": ^3.2.0
     "@typechain/ethers-v5": ^10.0.0
     "@typechain/hardhat": ^6.0.0
@@ -2199,6 +2200,13 @@ __metadata:
     typescript: ^4.6.3
   languageName: unknown
   linkType: soft
+
+"@rari-capital/solmate@https://github.com/Rari-Capital/solmate":
+  version: 6.2.0
+  resolution: "@rari-capital/solmate@https://github.com/Rari-Capital/solmate.git#commit=7caaeb5b87306afa928c434329d1ebadc133bbb4"
+  checksum: d353c8b0df3143632a4b408f2a220aad47ff49d2ff578fa2c7223a1c5b360d4d2b8d0efc84a1e2a4e9fd14351b6bcccda74265f318fe526d8840d7a274acf636
+  languageName: node
+  linkType: hard
 
 "@resolver-engine/core@npm:^0.3.3":
   version: 0.3.3
